@@ -1,5 +1,7 @@
 # solid-refresh: renaming a component loops forever on Rspack
 
+Issue: https://github.com/solidjs/solid-refresh/issues/88
+
 Minimal repro for a solid-refresh HMR bug (`$$refreshStandard`, webpack/Rspack).
 
 ```sh

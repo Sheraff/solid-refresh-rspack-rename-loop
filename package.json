@@ -1,0 +1,21 @@
+{
+  "name": "solid-refresh-rspack-rename-loop",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "rename": "node repro.mjs rename",
+    "hot-data": "node repro.mjs hot-data"
+  },
+  "dependencies": {
+    "solid-js": "1.9.17"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "2.2.14",
+    "@rsbuild/plugin-babel": "2.1.0",
+    "@rsbuild/plugin-solid": "1.2.2",
+    "playwright": "1.64.1"
+  },
+  "overrides": {
+    "solid-refresh": "0.7.8"
+  }
+}
